@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #000;
+  height: 72px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: black;
+}
+.bgwhite{
+  background-color: white;
+}
+.inline_block{
+  display: inline-block;
+}
+//navbar
+.logo{
+  height: 27px;
+}
+.navbar{
+  display: inline-block;
+  color: white;
+  height: 72px;
+  width: 100vw;
+  padding-top: 27px;
+  padding-left: 150px;
+  box-sizing:border-box;
+}
+.navbutcontainer{
+  width: 50vw;
+  height: inherit;
+  margin: -27px;
+  float: right;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbutcon{
+  display: inline-block;
+  box-sizing: border-box;
+}
+.navbut{
+  font-family: 'Roboto', sans-serif;
+  size: 24em;
+  color: #848484;
+  margin: auto 30px;
+  display: inline;
+  height: inherit;
+  width: 100px;
+}
+.navbut:hover{
+  color: white;
+}
+
+//header without navbar
+.header{
+  display: block;
+  height: calc(100vh-72px);
+}
+.FreeTrial{
+  width: 360px;
+  height: 337px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.FreeTrial_text_con{
+  border-radius: 5px 5px 0px 0px;
+  display: inline-block;
+  width: inherit;
+  height: 54px;
+  background-color: #f5f5f5;
+  color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+.FreeTrial_text{
+  display: inline-block;
+  margin-top: 18px;
+}
+//form detail
+.FreeTrial_form{
+  text-align: center;
+}
+.imp{
+  width: 285px;
+  height: 30px;
+  margin: 18px 38px 18px 37px;
+}
+.Getsarted{
+  background-color: orange;
+  width: 360px;
+  height: 55px;
+  margin-top: 30px;
+  border-radius: 0px 0px 5px 5px;
+}
+//header_info
+.header_info{
+  display: block;
+  height: calc(100vh-72px);
+}
+.big_header_logo{
+  width: 175px;
+  margin-bottom: 33px;
+}
+.header_info_con{
+  width: 513px;
+  display: inline-block;
+  margin-right: 223px;
+}
+.FreeTrial{
+  display: inline-block;
+  //margin-top: 30px;
+}
+.big_header_text{
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+}
+.line{
+  background-color: #fff;
+  width: 64px;
+  height: 2px;
+  margin: 40px 2px;
+}
+.FreeTrial_text_second{
+  color: #666;
+  font-size: 1em;
+}
+.al_center{
+  width: 1101px;
+  margin: 108px auto 0;
+}
+.but_Download{
+  border: 2px solid #fff;
+  color: white;
+  background-color: black;
+  width: 131px;
+  height: 38px;
+  margin: 44px 1px;
+}
+.arialFont{
+  font-family: 'Arial',sans-serif;
+}
+//Brand_bar
+.Brand_bar{
+  height: 108px;
+}
+.Social_media{
+  height: 61px;
+  width: 360px;
+  font-size: .9em;
+  margin-top: 22px;
+}
+.marginzero{
+  margin-top: 0;
+}
+.Social_media_font{
+  font-size: 1.5em;
+  color: #333;
+}
+.Social_media_icons{
+  height: 46px;
+  width: 730px;
+  margin-top: 29px;
+}
+.Social_media_icons_marg{
+  margin-left: 60px;
+}
+.Brand_bar_outer{
+  height: 108px;
+  vertical-align: middle;
+}
